@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Афиша</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,100&display=swap"
+    rel="stylesheet"
+  />
+    <link rel="icon" href="./image/logo.svg.png" />
+    <link rel="stylesheet" href="afisha.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+</head>
+  
+<body>
+    <header>
+        <div class="navbar">
+          <div class="nav-logo">
+            <a href="#"><img src="/image/logo.png" alt=""></a>
+          </div>
+          <div class="nav-items">
+            <ul>
+              
+              <li><a href="index.html">О нас</a></li>
+              <li><a href="afisha.html">Афиша</a></li>
+              <li><a href="cinema.html">Кинотетры</a></li>
+              
+            </ul>
+          </div>
+          <div class="nav-button">
+            <div class="anim-layer"></div>
+            <a href="login.html">Войти</a>
+          </div>
+          <div id="hamburger-menu">&#9776;</div>
+        </div>
+      
+        <div id="mobile-menu">
+          <div class="mobile-nav-items">
+            <ul>
+              <li><a href="#"> О нас </a></li>
+              <li><a href="#"> Афиша </a></li>
+              <li><a href="cinema.html"> Кинотетры </a></li>
+            </ul>
+          </div>
+          <div class="mobile-nav-button">
+            <div class="anim-layer"></div>
+            <a href="login.html">Войти</a>
+          </div>
+          <div id="hamburger-cross">&#10006;</div>
+        </div>
+      
+      </header>
+
+
+    <div class="afisha"><h1>Афиша</h1></div>
+    
+    <div class="movie_card" id="duna">
+        <div class="info_section">
+          <div class="movie_header">
+            <img class="locandina" src="https://img.championat.com/i/g/i/17016648621429830802.jpg"/>
+            <h1>Дюна 2</h1>
+            <h4>2024</h4>
+            <span class="minutes">166 мин.</span>
+            <p class="type"> фантастика, боевик</p>
+          </div>
+          <div class="movie_desc">
+            <p class="text">
+                В "Дюне 2" речь пойдет о судьбе Пола Атрейдеса и его возлюбленной Чани, которые продолжат путешествие...
+            </p>
+            <button>Перейти к оплате</button>
+          </div>
+        </div>
+        <div class="blur_back duna_back"></div>
+      </div>
+      
+      <div class="movie_card" id="kong">
+        <div class="info_section">
+          <div class="movie_header">
+            <img class="locandina" src="https://www.kinopoisk.ru/zWv304320/f34cf6aG/ZzfMcOqhi9kisWNyLhN3cFF5mDJJbfGq8XYC7tnshNaMZHfrmLgHbjObRSC0KZh-ir6h6eY6ZnsVcSD1eDQ3RxcCeSGKpb4911QiEhqDUrUhPTzCmVzgz7XSczto-SFyj2cUyT5LZU0BeWNHQF1sD_8bJG3iX4OfdaChgU8X9nHmh83A2ZDKDVHh0VW-kzdTUwi-MytshYmSNhV-m9yW1P3mRgkciLQ_M0oCp7Mcn8usyqXPoY8hXhYmkgFMpWDTtcYOQKox-s_ywVPF7ZEFcOFKXPIKHIQ745RWHXk-tXaPhhWLPEoH7QB4sPcTjA84H7vkb8H-I2z2ZdDw7GUzYMQn7cA7IPrOgSIx1fySZYLhak6iWJ3WaFFm1w9JLcRnDKQVmkyaBXzhqTEmwLyNil2ZFB0D3TOul-Vx0A_1kwOHtO4jy_DIrmHxo-eN86dxAUh8kLo-hlnzBZTMWO1m9V_GJgk-mdV-EXszxZF8jnt9-8cdw94THXYGYvOPlSBjB0Z_I4pyWL7ysFFlrqAFEXHrfgEJ3pX409ZGD0mfVsbfppZaPzn0zQKLc8fxfm_5LfvUX-HeYc1mtMLTXXdwERRV3ICbkFnPIACBJb7zR9JT2L6wG-wHa_O0V607rRTlfPQGCi04xN7DekC1Y868a2yY5y_i3zAe1bQiYvw2YGJUNc3A6iLqHXESMLfcsZYwgcpPUTntJzmDlFb9yByXR7zkBIlfyQTPIqpBZcBPDvttCxZ_YizTvLaUs-BMFlFQ1EYsM1vQWJ5RMQKW3ZAXgNGovdEqnORYE2THrUn9FzYN5YTJXkjEztCLIrTTbCwYjgl1jQMNwd6kNvATXUcgMlRn72LaAhivIsCCBHwjRtLCa7xSKq3kyPCllgyrrhV0nEWXyn0p1Q9SeVEnEkwO-AyZ556zP8M91ZdC4p-XogLGVo_iOxHoTyBwE2YN0xTSIVq9UlnM1FpSRuZeeywk1X2XtvusqfVecoqzp3IO7yq92pZt4l2ijPY0cNE-FMFydVZOURpwGU1SEKLEHMNH4kKozBHbfhR48cYGXzvs5xWcpeaLfwp2LyCJAeQyHK_In5unrEHvUI8FhJPTfDcAwmS3_RCqc7oNAyICNP_w5IECeFwCy23E-yI2Jr06DCYW3sSEiUyo5--iy5MH0r6fGj76FN1zDBBfBWfg012FY_AHVN6xm_E5TrHBcjZM48UwQGlvQJkuBCqxVVUcy9y2p83H1olO6jbMcytQl-N_D2pO-pWuYS-gDQWmgAGNdUBQVLRuggqQGP0TwUKUbyB3wwOZL_HITNQLEHenPpked0XMF-bJXvhVXTFpsQTyjg54vXuEDrD-cz6UZhPAjXSikoVE3cKYIoi_8pEzNayBR6Kya47C2X2UW4B1ll_7X3Q23qRmaj0blX9iqUDVcR9MCQ7bBA5zHiOdZwYgMzy2MTOH197xuaMoPsNwU2Y_oeSRQkrcgNkd9wgAtkWeKAylNWwmlbmu-vT-gPgy5QJMTkg_ypYtYh3TPlRU4PMdtFPQtxa-AdigiN0AQzJmPAA3YFM4LoCaXlUI8VY0rlpulWSNllWb_Ji3rBFoQkdBvl37Xzi3H7ENY772hGByvaazQGZUHBE6Afqc0NJCpE8TdIEDOP7Aed01C7M3Fa7o_2bUvMY3Sx9L1B7TaXDXIR4OOJ1J9Z3AfgPc1gbwI35HMXIktr3z2jJqHIHxYuQ9E3Xyshq-Ytv9x0gBhwbsOd4k5V4Vd0vPCdSc8soAloG-_Yv_O5XPsT8jfjU3clBuJLNiNHR94LiDqW9zcQNkvTA0sIJazoC7b5c74HZnfkocRLYdx9frb3v03aMagRQDf3xKnvuGn7Ju067n1oBynfVAsPZEvJE6M_neUOJipr9QVODgqmywO35EKfJX9m0q7xZX_HWneZ3pNt9jufPn0q0vyh_r9k3gfBBdZQbxoR6mYII0Vt1TyIKZ3JEAs-dtIfSzAAo_cyvsZ8uDlbRsuBz2xU42lhg8OobNELvjx4Gc3AvN-BcvU65j3LW14QEsxSPy1-XeMAoROL_zY3DVXUJ3wmG6flG5jHRrs1emfyudxoVfleeIX2nnPODbwaTTDp8LjsiFv-L_U4x0JAPiTiUjEddkHNC54vnf8pAidFyxlBCT-z6zul8n6DA3BL4ZvtQ13IY0-F1qJRzDCBDWsx2fy5_KJQ2Bn6Osl8VgMT21MEE3llzwulDarVKSUpYsgHfjImt8whmc1DrApWZOm8y0d6wllqpsqFedcTkDl-OOLbl9yOXvMy3QfuXkAPDd9VFjhCcMc2iBme2gsXBV_LHV4LHIvUAbvscZ8xY3fitPxKcdxCZrT2u2HJN50EcRvj_JrWv2f3EeUj515LBxX4bCwtWXvpKb8wv_UQMBRDzTpQFj6u2CudyHSCHVlC5ZjjS2_eX0CL_qdZ2wm4GUIny-O56bh-4wb4McBWbRMZ72QdH3lP5ymzDJ_-LgQdQsEHdyoTmN07g_hkmTB1YPaixEZQyEtvq-SvfMUWnS5WNMj2g9CtaeIw-jvWVFMSG_tjESFUR-o0riO_zwkTCGrRPV4vGJPdBKvydoI2eGjloPBEUupcQoT1uVbYBoEbYDT0z4jgg2_fItgozGlnGjjmcyE4Yln3HrEuos4SFzd-4CJ_DQuRxQim8XyCIllwz4DLd3L_e3mi64BOxSe3L0o90tq7_p1Y_hv5AelnaQsF4kYNGWRi3zWCJI_QLBc0ePwYXAU4iPgvouhCpSRYdM-Gzlp2-3l-qNaKT-cbnDRPOfHbgv6ffvs0-TzpXWwbOdh2Fy5xS-s7kSOnzCMjKm_TFG8KFKDuEqLsRYUWX1b-oc9XUONGRbPviFTyMZYQcgX7x7b2j1LoEOUZymVTPxjUZSgsZXrhN4ogotkDBA5i-y5WKB6G2yWSwliBJXBb1JPOd0vnZl6iyLpM0B-FOUom5fmg2axRxDnZG-pAVwY"/>
+            <h1>Годзилла и Конг: Новая империя</h1>
+            <h4>2024</h4>
+            <span class="minutes">115 мин</span>
+            <p class="type">фантастика, боевик</p>
+          </div>
+          <div class="movie_desc">
+            <p class="text">
+                Годзилла и Конг живут в разных мирах. Ящер — среди людей, примат — на Полой Земле, в глубинах планеты. Пока монстры...
+            </p>
+            <button>Перейти к оплате</button>
+          </div>
+        </div>
+        <div class="blur_back kong_back"></div>
+      </div>
+
+      <div class="movie_card" id="panda">
+        <div class="info_section">
+          <div class="movie_header">
+            <img class="locandina" src="https://www.kinopoisk.ru/zWv304320/f34cf6aG/ZzfMcOqhi9kisWNyLhN3cFF5mDJJbfGq8XYC7tnshNaMZHfrmLgHbjObRSA0WZg-Wt7geHM68ztgFFCEzKF3N9Pz7HGfhH99hzE2lt-2csWEbTyCjHzlfnQSQz_sOTEkf2b0yQ-aZJyxmYM00F1pm687VHwTr-I-8fVh8-8QAQM2Rw0SitBKfkKSMTff06TSMYr9UPkMZkmQdAbMyY6XVv40NOvMSxaugvhjx5Gurch-uvY_ww0jXXfG4fBdhqNQd4SNYSvgiN1iEKFk3eGHYHNoPHGJDdQ4MjdlLiutNSSeZ7bLDvjEnbBKM2cBPl57D_tWX7IPEb00hBBQndUQIZZnDfA64ImugXKxdd6BdWBTemwjCF-HisC2dx443CSnvGenu976VXxhy-K0MbzsOS0LJJ2RH9PctCUwsw11c2IFZO4A6tLpTlLggwS_Q4aAcUhewasPtiij9bQP-H629N5UNMndKleMs8kB5fG_HRlP2CRdkj9gPVc2EzNtxhPi9_XuQWhC-d0TEgEn7OHm8NJKz3JLHBcIcCd3HopOhXS-5GfIfQvkn0OJA4XzXp9JT8tmf5JNsC3lljPhj5Zh8eRWTVCKQ4gPo8JBN7-jJdLhin5geY6EKBI21Wy4DKbX7HQ32nw7916yunEXQ40NCCz4FnyTHGOe5XaCQM6GErGERw0hOPBaXrFz01X9cscA83ufQniu1lgyN4WfCY8EF_x2tKiN--a_YruhtMI_nQm_CUb8YP_B_cXnAPDutyAx96b-kMpC2X6SQfJU3PN3UJGJH1EJbbfIwqbVHugPdab99vSpDDvnTUPYcKfhHX7qvWq0nUHto-9npPPhv8ZCsdZlrxEYAugNY8Fg9W-iJUNSiJxROG0nKwP3dPy7DTc3XeX3im0qJs-xq-NmwT-eaC34py1z70CexhYCI29EciPnBS_wC_IID9NQAoSf8CWgY4mcIlldtYnghyYsOTyW1o_ExlvtCnfvQkljBoPeTNluiVR8EY7xvWUkMYLsJwKQ58Sc0WoDCn2z4aCVj6MVw5H436DrnZcqYGcnbPn_Vje9lLaITokGvUH7IEaRnq77L7iV36N88k7VxzPAz-aygQZ33WFpoEosgUFQdrwAdoNBaMyw-E0U-ZBHxW0ZPlV13Pa0u-wYxj8DacOmM658Wk4L5O1APCJONrQz4X2FgOLlVHxQ6yMJnmIxUsWvIcfBUFuO4ruNxWrzNGScya7kZt-ktLmuyeXu46pTl_I-DCpOipf_Y4xwTvfU4TGNpiCxBeRPwYoCujxiAfDmbJM0gqAbP7PZXeTL0cZGzgtvBmcPlPSpvKp0rKFLwIYDPx7Zz5s3LrJfQ983RyAxjETiYPVXD1M4kvjdMnBRJc2jVTNSugyi6B20W9P3J6xKbHV1vBRXyl9qVv9huhEFkn1vam8bN-1SD-AsV3TTgE7XQ2JmVDxyuTJ57NMQArbtAGbDc-hOooh-59sQJOZ_Gb12xz7nhFm-C9cdMMghdsF_Llt-iRT8Uf9DHwW0E6FMtaBSpzTME7qSmi_gcQK1TNOX0gEaTuHL3Ocq8FXWDXuNJyaOJ6YL3EiFjKC4gzUzbJ07jKgmL0FPw73VNJIBXlUwg-WW3PEb4Nv_cQHAxl-QdoIByg4CSLzkaJF01r_qfpcX3kV26A8rN06hihNVkz9e-f3qpF4yL6GdV6TDwr_XAsEHNz4RKHBbrlIhgLRfkQUzI4qsoGhOp9ohZ5Ruyzym9Q0FdjhNK7VvAvpS9TPM7ZuPivYvcw8DfmYmsNLcVRLRxfctc5mzKFzSQAA0fNBHA2P6TsD6HtQ70AYGHQlc9bbfpdaYPwv0PtJ70HfyTSz6T5mmLCL_06yH1JIhDabAE_U2XPEp45l_QSHCNhywF2GTWH5A683GKfGXFX36DhRXbdVEaq3J9v5xCSOmIB6se1_pdH4wPCAuV6VBol6G8tHnV54DmIObvqPwg-RtEESBMwu9UHnuJFgz1RTvCe6G5S7kJct-eeSNcxkD9RHtbalMCBbN4k-h_uS14ZA9xYIyVFT9wQsi-NzAM7HUDpM14INKn8IZ_YRo8ccHfIjexvSNlbWoLRgVfRM7YKeDrm3qfJqGfLN_8T91VwLy3cVhMtWWHXL445jdM2EQ1f1w5xLCCn3Byq4H65Flxk6rzHZ3nkbFqi7aNV7A6hLHkK6t-346NB_Tj9HclDTRgU3WMdIn1j1xSsDqfTER8qXMkxSjUkgMYgld1RsDBzbM2aw0Bz3kl5vsqLTs8flTlwMc3xl8-tatYfwDrrVUEGENtxNhloa-o5uDqo8SMzF1_TEXMPGJjmArTvYosFYGfFrc5LbcVFa4L0k1DrEqg2UzDq_J3-lG71J-Qz615JHjfiSyMCY0X1DpEbh-oEIgtZ9B9uLT2UzCSQ6n-nP1Vg6bLPVW_YY1SK6KtC1Te1BW8Y9d-i-Y164jr2FON4XRIg6noRIldL9QKtO4zUMCsKVck4UgALkdw6oPpkihN3c9OVwmp5zEx0kOCOXMoSghF8G-Dlm-yae9Q4_ALhRlwQNO12Lw9fRugfghu98yc-IkXzEVcLAJHjEqrof4wef2DRocBoW9thW4H2pEHaDrcnfCfZ7qvCnEbGGu8Y3HJUMyn9RjY5QVvCAI8GvOgjATZ07DB1GAKJ7x-p4n-YP2dK8ZrzSE78Wn2fz7xc-ziDDXUBzN213Ktn_zvGPdJ8RQ4tyGoXP3pz6TOFK6LWIwIwaNYTfSsbtMgbsNxYnj5jSvef3kxK_l13osW9fscTmAhxIs3ktd6NYtA7-z3oeVUyF_hwICpTR-cgggO-2RccJ0faIHIHM6L1G7TbeKw5QXvQntNqUsFmbJvHpmvtGbw1TSjR0L3OoXH0J94e0EZxExvrTyI-Yk3rO4EGq_kwOCpv4BlQDRWXwiuaxnyfFkxR4p_zcVbhfX289b5JwwqVDW4278aS7aJd3RvcPvVCSD8"/>
+            <h1>Кунг-фу Панда 4</h1>
+            <h4>2024</h4>
+            <span class="minutes">94 мин</span>
+            <p class="type">мультфильм, фэнтези</p>
+          </div>
+          <div class="movie_desc">
+            <p class="text">
+                Продолжение приключений легендарного воина По, его верных друзей и наставника...
+            </p>
+            <button>Перейти к оплате</button>
+          </div>
+        </div>
+        <div class="blur_back panda_back"></div>
+      </div>
+
+
+      <div class="movie_card" id="ohot">
+        <div class="info_section">
+          <div class="movie_header">
+            <img class="locandina" src="https://upload.wikimedia.org/wikipedia/ru/thumb/3/37/Ghostbusters_4_Teaser_poster.jpg/1200px-Ghostbusters_4_Teaser_poster.jpg"/>
+            <h1>Охотники за привидениями: Леденящий ужас</h1>
+            <h4>2024</h4>
+            <span class="minutes">115 мин</span>
+            <p class="type">комедия, фэнтези</p>
+          </div>
+          <div class="movie_desc">
+            <p class="text">
+                Ветераны «Охотников за привидениями» должны объединить усилия со своими новыми...
+            </p>
+            <button>Перейти к оплате</button>
+          </div>
+        </div>
+        <div class="blur_back ohot_back"></div>
+      </div>
+</body>
+
+<footer class="footer">
+    <div class="container row">
+      <div class="footer-col">
+        <h4>Наша сеть</h4>
+        <ul>
+          <li><a href="#">О нас</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Поддержка</h4>
+        <ul>
+          <li><a href="#">+375 44 773 352 57</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Кинотетары</h4>
+        <ul>
+          <li><a href="#">MOON</a></li>
+          <li><a href="#">Skyline</a></li>
+          <li><a href="#">Silver</a></li>
+          <li><a href="#">Октябрь</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Подпишись на нас</h4>
+        <div class="social-links">
+          <a href="#"><i class="fa-brands"><img src="/image/inst.png" alt=""></i></a>
+          <a href="#"><i class="fa-brands"></i><img src="/image/vk.svg" alt=""></a>
+          <a href="#"><i class="fa-brands"></i><img src="image/tg.svg" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</html>

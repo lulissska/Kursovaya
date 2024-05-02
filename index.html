@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Сеть кинотетров</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./image/logo.svg.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="nav-logo">
+          <a href="index.html"><img src="/image/logo.png" alt="" /></a>
+        </div>
+        <div class="nav-items">
+          <ul>
+            <li><a href="index.html">О нас</a></li>
+            <li><a href="afisha.html">Афиша</a></li>
+            <li><a href="cinema.html">Кинотетры</a></li>
+          </ul>
+        </div>
+        <div class="nav-button">
+          <div class="anim-layer"></div>
+          <a href="login.html">Войти</a>
+        </div>
+        <div id="hamburger-menu">&#9776;</div>
+      </div>
+
+      <div id="mobile-menu">
+        <div class="mobile-nav-items">
+          <ul>
+            <li><a href="#"> О нас </a></li>
+            <li><a href="afisha.html"> Афиша </a></li>
+            <li><a href="cinema.html"> Кинотетры </a></li>
+          </ul>
+        </div>
+        <div class="mobile-nav-button">
+          <div class="anim-layer"></div>
+          <a href="login.html">Войти</a>
+        </div>
+        <div id="hamburger-cross">&#10006;</div>
+      </div>
+    </header>
+
+    <main>
+      <ul class="slider-glav">
+        <li class="item" style="background-image: url('/image/s4.png')">
+          <div class="content">
+            <h2 class="title">ГОДЗИЛЛА И КОНГ: НОВАЯ ИМПЕРИЯ</h2>
+            <p class="description">
+              Годзилла и Конг живут в разных мирах. Ящер — среди людей, примат —
+              на Полой Земле, в глубинах планеты. Пока монстры...
+            </p>
+            <a href="afisha.html"><button>Купить билет</button></a>
+          </div>
+        </li>
+        <li class="item" style="background-image: url('/image/s2.png')">
+          <div class="content">
+            <h2 class="title">ДЮНА 2</h2>
+            <p class="description">
+              В "Дюне 2" речь пойдет о судьбе Пола Атрейдеса и его возлюбленной
+              Чани, которые продолжат путешествие...
+            </p>
+            <a href="afisha.html"><button>Купить билет</button></a>
+          </div>
+        </li>
+        <li class="item" style="background-image: url('/image/s0.png')">
+          <div class="content">
+            <h2 class="title">КУНГ-ФУ ПАНДА 4</h2>
+            <p class="description">
+              Продолжение приключений легендарного воина По, его верных друзей и
+              наставника...
+            </p>
+            <a href="afisha.html"><button>Купить билет</button></a>
+          </div>
+        </li>
+        <li class="item" style="background-image: url('/image/s7.png')">
+          <div class="content">
+            <h2 class="title">Охотники за привидениями: Леденящий ужас</h2>
+            <p class="description">
+              Ветераны «Охотников за привидениями» должны объединить усилия со
+              своими новыми...
+            </p>
+            <a href="afisha.html"><button>Купить билет</button></a>
+          </div>
+        </li>
+      </ul>
+
+      <nav class="nav">
+        <ion-icon class="btn prev" name="arrow-back-outline"></ion-icon>
+        <ion-icon class="btn next" name="arrow-forward-outline"></ion-icon>
+      </nav>
+    </main>
+
+    <!-- kino -->
+    <div class="all">
+      <h1>Кинотетры</h1>
+      <div class="slider owl-carousel">
+        <div class="card">
+          <div class="img">
+            <a href="./cinema.html#moon"
+              ><img
+                src="https://dana-mall.com/assets/components/phpthumbof/cache/1821.86a51763cdd03de596a980164fc0b1b7.jpg"
+            /></a>
+          </div>
+          <div class="text">
+            <div class="name">MOON</div>
+            <div class="sub-name">Кинотеатр MOON в ТРЦ Palazzo</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img">
+            <a href="./cinema.html#silver"
+              ><img
+                src="https://www.silvercinema.ru/assets/images/resources/18/foje3.jpg"
+            /></a>
+          </div>
+          <div class="text">
+            <div class="name">Silver</div>
+            <div class="sub-name">Кинотеатр Silver Screen ArenaCity</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img">
+            <a href="./cinema.html#skyline"
+              ><img
+                src="https://lh3.googleusercontent.com/p/AF1QipOAJ5KAY4blFqU6RKIeIpm_SxdlvuGFVqaPwVzN=s1360-w1360-h1020"
+            /></a>
+          </div>
+          <div class="text">
+            <div class="name">SKYLINE</div>
+            <div class="sub-name">Skyline Cinema в ТРЦ Galileo</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img">
+            <a href="./cinema.html#october">
+              <img
+                src="https://lh3.googleusercontent.com/p/AF1QipMR5wfo-QYP7mHvgv4J4jshK-rDd6WfHvd1Zxiw=s1360-w1360-h1020"
+            /></a>
+          </div>
+          <div class="text">
+            <div class="name">Октябрь</div>
+            <div class="sub-name">Кинотеатр Октябрь пр. Независимости 73</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- kino end -->
+
+    <footer class="footer">
+      <div class="container row">
+        <div class="footer-col">
+          <h4>Наша сеть</h4>
+          <ul>
+            <li><a href="#">О нас</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Поддержка</h4>
+          <ul>
+            <li><a href="#">+375 44 773 352 57</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Кинотетары</h4>
+          <ul>
+            <li><a href="./cinema.html#moon">MOON</a></li>
+            <li><a href="./cinema.html#skyline">Skyline</a></li>
+            <li><a href="./cinema.html#silver">Silver</a></li>
+            <li><a href="./cinema.html#october">Октябрь</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Подпишись на нас</h4>
+          <div class="social-links">
+            <a href="#"
+              ><i class="fa-brands"><img src="/image/inst.png" alt="" /></i
+            ></a>
+            <a href="#"
+              ><i class="fa-brands"></i><img src="/image/vk.svg" alt=""
+            /></a>
+            <a href="#"
+              ><svg
+                width="20"
+                height="20"
+                viewbox="0 0 22 22"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0.388585 10.6073L5.45783 12.4993L7.41993 18.8094C7.54548 19.2136 8.03967 19.363 8.36769 19.0948L11.1934 16.7912C11.4896 16.5499 11.9115 16.5379 12.221 16.7626L17.3175 20.4627C17.6684 20.7178 18.1655 20.5255 18.2535 20.1015L21.987 2.14282C22.0831 1.67965 21.628 1.29326 21.1869 1.46383L0.382645 9.4895C-0.130762 9.6875 -0.126288 10.4144 0.388585 10.6073ZM7.10372 11.4922L17.0109 5.39032C17.189 5.28098 17.3721 5.52173 17.2192 5.66356L9.04295 13.2638C8.75555 13.5313 8.57017 13.8894 8.51766 14.278L8.23914 16.342C8.20225 16.6176 7.81513 16.6449 7.73908 16.3782L6.6679 12.6144C6.54521 12.1851 6.724 11.7265 7.10372 11.4922Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      $(".slider").owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 2000, //2000ms = 2s;
+        autoplayHoverPause: true,
+      });
+    </script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

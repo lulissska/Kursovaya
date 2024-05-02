@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кинотеатры</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,100&display=swap"
+    rel="stylesheet"
+  />
+    <link rel="icon" href="./image/logo.svg.png" />
+    <link rel="stylesheet" href="cinema.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <script defer src="cinema.js"></script>
+    <script defer src="parserXML.js"></script>
+</head>
+
+
+<body>
+
+    <header>
+        <div class="navbar">
+          <div class="nav-logo">
+            <a href="index.html"><img src="/image/logo.png" alt=""></a>
+          </div>
+          <div class="nav-items">
+            <ul>
+              
+              <li><a href="index.html">О нас</a></li>
+              <li><a href="afisha.html">Афиша</a></li>
+              <li><a href="cinema.html">Кинотетры</a></li>
+              
+            </ul>
+          </div>
+          <div class="nav-button">
+            <div class="anim-layer"></div>
+            <a href="login.html">Войти</a>
+          </div>
+          <div id="hamburger-menu">&#9776;</div>
+        </div>
+      
+        <div id="mobile-menu">
+          <div class="mobile-nav-items">
+            <ul>
+              <li><a href="index.html"> О нас </a></li>
+              <li><a href="afisha.html"> Афиша </a></li>
+              <li><a href="cinema.html"> Кинотетры </a></li>
+            </ul>
+          </div>
+          <div class="mobile-nav-button">
+            <div class="anim-layer"></div>
+            <a href="login.html">Войти</a>
+          </div>
+          <div id="hamburger-cross">&#10006;</div>
+        </div>
+      
+      </header>
+    
+    <div class="all">
+        <h1>Кинотетры</h1>
+        <div class="slider owl-carousel">
+            <div class="card">
+                <div class="img">
+                   <a href="./cinema.html#moon"><img src="https://dana-mall.com/assets/components/phpthumbof/cache/1821.86a51763cdd03de596a980164fc0b1b7.jpg" /></a> 
+                </div>
+                <div class="text">
+                    <div class="name">
+                        MOON
+                    </div>
+                    <div class="sub-name">
+                      Кинотеатр MOON в ТРЦ Palazzo
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <a href="./cinema.html#silver"><img src="https://www.silvercinema.ru/assets/images/resources/18/foje3.jpg" /></a>
+                </div>
+                <div class="text">
+                    <div class="name">
+                       Silver
+                    </div>
+                    <div class="sub-name">
+                       Кинотеатр Silver Screen ArenaCity
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                   <a href="./cinema.html#skyline"><img src="https://lh3.googleusercontent.com/p/AF1QipOAJ5KAY4blFqU6RKIeIpm_SxdlvuGFVqaPwVzN=s1360-w1360-h1020" /></a> 
+                </div>
+                <div class="text">
+                    <div class="name">
+                        SKYLINE
+                    </div>
+                    <div class="sub-name">
+                        Skyline Cinema в ТРЦ Galileo
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                   <a href="./cinema.html#october"> <img src="https://lh3.googleusercontent.com/p/AF1QipMR5wfo-QYP7mHvgv4J4jshK-rDd6WfHvd1Zxiw=s1360-w1360-h1020" /></a>
+                </div>
+                <div class="text">
+                    <div class="name">
+                        Октябрь
+                    </div>
+                    <div class="sub-name">
+                        Кинотеатр Октябрь пр. Независимости 73
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!-- kino end -->
+
+
+      <!-- gallery -->
+      <div class="kino-cards">
+        <div class="moon" id="moon">
+            <img src="https://dana-mall.com/assets/components/phpthumbof/cache/1821.86a51763cdd03de596a980164fc0b1b7.jpg" alt="Moon">
+            <div class="moon-container" >
+            </div>
+        </div>
+
+    <div class="skyline" id="skyline">
+        <img src="https://lh3.googleusercontent.com/p/AF1QipOAJ5KAY4blFqU6RKIeIpm_SxdlvuGFVqaPwVzN=s1360-w1360-h1020" alt="Skyline">
+        <div class="skyline-container" >
+            <h2 class="skyline-container-title">SKYLINE
+            </h2>
+            <p class="skyline-text">Кинотеатр занимает более 3 500 м2 в ТРЦ Galileo. На трех ярусах работает 7 кинозалов разной вместимости. За дизайн отвечает английское архитектурное бюро Сhapman Taylor, создавшее интерьеры для кинотеатров в Дубае (известный мультиплекс в Dubai Mall), Лондоне, Гамбурге и Мадриде. Ничего похожего еще не было в Беларуси – как по визуальной концепции, так по уровню отделки и декора. Идеальное 4K изображение обеспечено благодаря ультрасовременным лазерным проекторам четвёртой серии BARCO SP4K и SP2K бельгийского производства. Объемный многоканальный звук воспроизводят высококачественные акустические системы MAG AUDIO и американские кинопроцессоры QSC</p>
+                <a href="afisha.html"><button>Афиша</button></a>
+        </div>
+    </div>
+
+    <div class="silver" id="silver">
+        <img src="https://www.silvercinema.ru/assets/images/resources/18/foje3.jpg" alt="Moon">
+        <div class="silver-container" >
+            <h2 class="silver-container-title">SILVER
+            </h2>
+            <p class="silver">Silver Screen в ARENAcity – уютный кинотеатр в Минске на пр-те Победителей, где Вас ждут 6 залов с огромными экранами. Здесь Вы можете посмотреть фильмы в удобных кожаных сидениях с подставками для напитков. Широкие проходы позволяют передвигаться, не мешая другим зрителям. В двух залах установлены кресла-реклайнеры. Это большое, раскладывающееся кресло с подставкой для ног. К ним прилагаются пледы, подушки и встроенные столики. Есть специальные диванчики для двоих — Love Seats. Во всех залах работает кондиционирование воздуха и климат-контроль.</p>
+                <a href="afisha.html"><button>Афиша</button></a>
+        </div>
+    </div>
+
+
+    <div class="october" id="october">
+        <img src="https://lh3.googleusercontent.com/p/AF1QipMR5wfo-QYP7mHvgv4J4jshK-rDd6WfHvd1Zxiw=s1360-w1360-h1020" alt="Skyline">
+        <div class="october-container">
+            <h2 class="october-container-title">ОКТЯБРЬ
+            </h2>
+            <p class="october-text">«Октябрь» — широкоформатный кинотеатр в Минске, имеющий самый большой кинозал в Белоруссии. Расположен на проспекте Независимости, дом 73. Был спроектирован архитектором В. И. Малышевым. Входит в структуру УП «Киновидеопрокат Мингорисполкома».</p>
+                <a href="afisha.html"><button>Афиша</button></a>
+        </div>
+    </div>
+</div>
+
+      <!-- gallery end -->
+
+
+
+    
+</body>
+<footer class="footer">
+    <div class="container row">
+      <div class="footer-col">
+        <h4>Наша сеть</h4>
+        <ul>
+          <li><a href="#">О нас</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Поддержка</h4>
+        <ul>
+          <li><a href="#">+375 44 773 352 57</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Кинотетары</h4>
+        <ul>
+          <li><a href="#">MOON</a></li>
+          <li><a href="#">Skyline</a></li>
+          <li><a href="#">Silver</a></li>
+          <li><a href="#">Октябрь</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Подпишись на нас</h4>
+        <div class="social-links">
+          <a href="#"><i class="fa-brands"><img src="/image/inst.png" alt=""></i></a>
+          <a href="#"><i class="fa-brands"></i><img src="/image/vk.svg" alt=""></a>
+          <a href="#"><i class="fa-brands"></i><img src="image/tg.svg" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    $(".slider").owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 2000, //2000ms = 2s;
+        autoplayHoverPause: true,
+    });
+</script>
+
+<script src="script.js"></script>
+</html>

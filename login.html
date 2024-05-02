@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Вход и регистрация</title>
+  <link rel="icon" href="./image/logo.svg.png" />
+  <link rel="stylesheet" href="login.css">
+  <link
+  href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,100&display=swap"
+  rel="stylesheet"
+/>
+</head>
+
+<body>
+
+  <input type="radio" id="loginForm" name="formToggle" checked>
+  <input type="radio" id="registerForm" name="formToggle">
+  <input type="radio" id="forgotForm" name="formToggle">
+
+  <div class="wrapper" id="loginFormContent">
+    <form onsubmit="return validateLoginForm()">
+      <h1>Войти</h1>
+      <div class="input-box">
+        <input id="loginUsername" type="text" placeholder="Username" required>
+      </div>
+      <div class="input-box">
+        <input id="loginPassword" type="password" placeholder="Password" required>
+      </div>
+      <button type="submit" class="btn">Войти</button>
+      <div class="link">
+        <p>Вы ещё не зарегестрированы? <label for="registerForm">Зарегистрироваться</label></p>
+        <a href="index.html"><p>К главной странице</p></a>
+      </div>
+    </form>
+  </div>
+
+  <div class="wrapper" id="registerFormContent">
+    <form onsubmit="return validateRegisterForm()">
+      <h1>Регисрация</h1>
+      <div class="input-box">
+        <input id="registerUsername" type="text" placeholder="Username" required>
+      </div>
+      <div class="input-box">
+        <input id="registerEmail" type="email" placeholder="Email" required>
+      </div>
+      <div class="input-box">
+        <input id="registerPassword" type="password" placeholder="Password" required>
+      </div>
+      <button type="submit" class="btn">Зарегистрироваться</button>
+      <div class="link">
+        <p>У вас уже есть аккаунт?</p>
+        <p><label for="loginForm">Войти</label></p>
+        <a href="index.html"><p>К главной странице</p></a>
+      </div>
+    </form>
+  </div>
+
+  <script>
+    function validateLoginForm() {
+      var username = document.getElementById("loginUsername").value;
+      var password = document.getElementById("loginPassword").value;
+
+      if (!username || !password) {
+        alert("Please fill in both username and password.");
+        return false; // Prevent form submission
+      }
+      return true;
+    }
+
+    function validateRegisterForm() {
+      var username = document.getElementById("registerUsername").value;
+      var email = document.getElementById("registerEmail").value;
+      var password = document.getElementById("registerPassword").value;
+      const regex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,4}$/i
+
+
+
+      if (!username || !email || !password ) {
+        alert("Please fill in all fields.");
+        return false; // Prevent form submission
+      } else if (!regex.test(email)) {
+        alert('Enter correct email')
+        return false
+      }
+      return true;
+    }
+  </script>
+
+</body>
+
+</html>
